@@ -1,11 +1,8 @@
-The PBPK model for COMPOUND was developed and verified with clinical pharmacokinetic data.
+The PBPK model for MEDI-524-YTE was evaluated with PK data in cynomolgus monkeys.
 
-The model was evaluated covering data from studies including in particular
+These PK data have been used together with PK data from 5 other compounds to simultaneously identify parameters during the development of the generic model for proteins and large molecules in PK-Sim ([Niederalt 2018](#5-references)).
 
-* ...
-* ...
 
-The model quantifies ...
 
 The next sections show:
 

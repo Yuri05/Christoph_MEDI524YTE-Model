@@ -1,40 +1,18 @@
-### In vitro / physico-chemical Data <a id="invitro-and-physico-chemical-data"></a>
+### 2.2.1	In vitro / physico-chemical Data
 
-A literature search was performed to collect available information on physicochemical properties of dapagliflozin. The obtained information from literature is summarized in the table below. 
+A literature search was performed to collect available information on physicochemical properties of MEDI-524-YTE. The obtained information from literature is summarized in the table below. 
 
-| **Parameter**   | **Unit** | **Value** | Source                                     | **Description**                                 |
-| :-------------- | -------- | --------- | ------------------------------------------ | ----------------------------------------------- |
-| MW              | g/mol    |           | [Dummy YEAR](#main-references)               | Molecular weight                                |
-| pK<sub>a</sub>  |          |           | [DrugBank DB06292](#main-references)         | Acid dissociation constant                      |
-| Solubility (pH) |          |           | [Dummy YEAR](#main-references)               | Aqueous Solubility, FaSSIF, ...                 |
-| logP            |          |           | [Dummy YEAR](#main-references) (experimental) | Partition coefficient between octanol and water |
-| fu              | %        |           | [Dummy YEAR](#main-references)                | Fraction unbound in plasma                      |
-| B/P ratio       |          |           | [Dummy YEAR](#main-references)                | Blood to plasma ratio                           |
-| ...             |          |           |                                            | ....                                            |
+| **Parameter** | **Unit** | **Value** | Source                            | **Description**                                              |
+| :------------ | -------- | --------- | --------------------------------- | ------------------------------------------------------------ |
+| MW            | g/mol    | 150000    | [Lobo 2004](#5-references)        | Molecular weight                                             |
+| r             | nm       | 5.34      | [Taylor 1984](#5-references)      | Hydrodynamic solute radius                                   |
+| Kd (FcRn)     | µM       | 0.134     | [Dall' Acqua 2006](#5-references) | Dissociation constant for binding to cynomolgus monkey FcRn for the Fc variant MEDI-524-YTE (pH 6) |
 
-### Clinical Data  <a id="clinical-data"></a>
+### 2.2.2	PK Data
 
-A literature search was performed to collect available clinical data on dapagliflozin in healthy adults.
+Published PK data on MEDI-524-YTE in cynomolgus monkeys were used.
 
-#### Model Building <a id="model-building"></a>
-
-The following studies were used for model building (training data):
-
-| Publication                 | Arm / Treatment / Information used for model building |
-| :-------------------------- | :---------------------------------------------------- |
-| [Dummy YEAR](#main-references) | Healthy Subjects with a single dose of X mg           |
-| ...                         | ...                                                   |
-| ...                         | ...                                                   |
-| ...                         | ...                                                   |
-
-#### Model Verification <a id="model-verification"></a>
-
-The following studies were used for model verification:
-
-| Publication                 | Arm / Treatment / Information used for model building |
-| :-------------------------- | :---------------------------------------------------- |
-| [Dummy YEAR](#main-references) | Healthy Subjects with a single dose of Y mg           |
-| ...                         | ...                                                   |
-| ...                         | ...                                                   |
-| ...                         | ...                                                   |
+| Publication                       | Description                                                  |
+| :-------------------------------- | :----------------------------------------------------------- |
+| [Dall' Acqua 2006](#5-references) | The plasma concentration–time profiles after single i.v. infusion of 30 mg/kg MEDI-524-YTE in in cynomolgus monkeys were used. |
 

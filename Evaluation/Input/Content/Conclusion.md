@@ -1,4 +1,1 @@
-The herein presented PBPK model adequately describes the pharmacokinetics of COMPOUND in adults.
-
-In particular, it applies quantitative ... Thus, the model is fit for purpose to be applied for...
-
+The herein presented PBPK model adequately describes the pharmacokinetics in monkeys of MEDI-524-YTE, a variant of MEDI-524 with increased plasma half life. The PK data had been used during the development of the generic large molecule PBPK model in PK-Sim ([Niederalt 2018](#5-references)) together with PK data from 5 other compounds (7E3, BAY 79-4620, CDA1, dAb2 & MEDI-524). 

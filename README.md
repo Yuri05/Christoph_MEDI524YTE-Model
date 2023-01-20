@@ -1,5 +1,5 @@
-# COMPOUND-Model
-**_tbd._**
+# MEDI-524-YTE-Model
+Whole-body PBPK model of the antibody MEDI-524-YTE  (variant of MEDI-524 with a YTE mutation to increase affinity to FcRn) in monkeys.
 
 ## Repository files
 **_tbd._**

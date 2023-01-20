@@ -1,4 +1,4 @@
-# Building and evaluation of a PBPK model for COMPOUND in healthy adults
+# Building and evaluation of a PBPK model for antibody MEDI-524-YTE in cynomolgus monkeys
 
 
 

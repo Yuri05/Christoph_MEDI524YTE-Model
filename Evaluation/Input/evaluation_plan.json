@@ -2,8 +2,8 @@
     "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v3.0/OSP_Qualification_Plan_Schema.json",
     "Projects": [
         {
-            "Id": "Compound",
-            "Path": "../../Compound.json",
+            "Id": "MEDI524YTE",
+            "Path": "../../MEDI524YTE.json",
             "BuildingBlocks": [],
             "SimulationParameters": []
         }
@@ -14,15 +14,15 @@
             "GOFMergedPlotsPredictedVsObserved": [
                 {
                     "Type": "X",
-                    "Dimension": "Concentration (mass)",
-                    "Unit": "µg/l",
+                    "Dimension": "Concentration (molar)",
+                    "Unit": "µmol/l",
                     "GridLines": false,
                     "Scaling": "Log"
                 },
                 {
                     "Type": "Y",
-                    "Dimension": "Concentration (mass)",
-                    "Unit": "µg/l",
+                    "Dimension": "Concentration (molar)",
+                    "Unit": "µmol/l",
                     "GridLines": false,
                     "Scaling": "Log"
                 }
@@ -53,8 +53,8 @@
                 },
                 {
                     "Type": "Y",
-                    "Dimension": "Concentration (mass)",
-                    "Unit": "µg/l",
+                    "Dimension": "Concentration (molar)",
+                    "Unit": "µmol/l",
                     "GridLines": false,
                     "Scaling": "Log"
                 }
@@ -121,13 +121,8 @@
         },
         "AllPlots": [
             {
-                "Project": "Compound",
-                "Simulation": "Sim 1 - intravenous",
-                "SectionReference": "ct-profiles"
-            },
-            {
-                "Project": "Compound",
-                "Simulation": "Sim 2 - peroral",
+                "Project": "MEDI524YTE",
+                "Simulation": "Sim_MEDI524YTE",
                 "SectionReference": "ct-profiles"
             }
         ],
@@ -150,23 +145,10 @@
                         "Symbol": "Circle",
                         "OutputMappings": [
                             {
-                                "Project": "Compound",
-                                "Simulation": "Sim 1 - intravenous",
-                                "Output": "Organism|PeripheralVenousBlood|COMPOUND|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Observed data iv",
-                                "Color": "#FF0000"
-                            }
-                        ]
-                    },
-                    {
-                        "Caption": "Oral administration",
-                        "Symbol": "Square",
-                        "OutputMappings": [
-                            {
-                                "Project": "Compound",
-                                "Simulation": "Sim 2 - peroral",
-                                "Output": "Organism|PeripheralVenousBlood|COMPOUND|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Observed data po",
+                                "Project": "MEDI524YTE",
+                                "Simulation": "Sim_MEDI524YTE",
+                                "Output": "Organism|PeripheralVenousBlood|MEDI524YTE|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": ["DallAcqua2006_Engineered_IgG_PKSimImport.MEDI524YTE.Study A","DallAcqua2006_Engineered_IgG_PKSimImport.MEDI524YTE.StudyB"],
                                 "Color": "#FF0000"
                             }
                         ]
@@ -180,15 +162,9 @@
     },
     "Inputs": [
         {
-            "Project": "Compound",
-            "Name": "COMPOUND",
+            "Project": "MEDI524YTE",
+            "Name": "MEDI524YTE",
             "Type": "Compound",
-            "SectionReference": "final-input-parameters"
-        },
-        {
-            "Project": "Compound",
-            "Name": "Tablet",
-            "Type": "Formulation",
             "SectionReference": "final-input-parameters"
         }
     ],
