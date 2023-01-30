@@ -4,5 +4,5 @@ The plasma concentration–time profile after intravenous application of a 30 mg
 
 The herein presented evaluation report evaluates the performance of the PBPK model for MEDI-524-YTE in cynomolgus monkeys for the PK data used for the development of the generic large molecule model in PK-Sim.
 
-The presented MEDI-524-YTE PBPK model as well as the respective evaluation plan and evaluation report are provided open-source (https://github.com/.../Compound-model).
+The presented MEDI-524-YTE PBPK model as well as the respective evaluation plan and evaluation report are provided open-source (https://github.com/Open-Systems-Pharmacology/MEDI524YTE-Model).
 
