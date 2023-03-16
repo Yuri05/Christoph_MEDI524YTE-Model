@@ -26,7 +26,7 @@
               "Value": -5.0,
               "Unit": "Log Units",
               "ValueOrigin": {
-                "Source": "Unknown",
+                "Source": "Other",
                 "Description": "/Dummy value not used in the simulation"
               }
             }
@@ -42,7 +42,7 @@
               "Name": "Fraction unbound (plasma, reference value)",
               "Value": 1.0,
               "ValueOrigin": {
-                "Source": "Unknown",
+                "Source": "Other",
                 "Description": "Assumption"
               }
             }
@@ -58,7 +58,7 @@
               "Value": 9999.0,
               "Unit": "mg/l",
               "ValueOrigin": {
-                "Source": "Unknown",
+                "Source": "Other",
                 "Description": "/Dummy value not used in the simulation"
               }
             },
@@ -66,7 +66,7 @@
               "Name": "Reference pH",
               "Value": 7.0,
               "ValueOrigin": {
-                "Source": "Unknown",
+                "Source": "Other",
                 "Description": "/Dummy value not used in the simulation"
               }
             }
@@ -196,6 +196,18 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|MEDI524YTE|Plasma (Peripheral Venous Blood)"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Sim_MEDI524YTE|Organism|PeripheralVenousBlood|MEDI524YTE|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "DallAcqua2006_Engineered_IgG_PKSimImport.MEDI524YTE.Study A"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Sim_MEDI524YTE|Organism|PeripheralVenousBlood|MEDI524YTE|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "DallAcqua2006_Engineered_IgG_PKSimImport.MEDI524YTE.StudyB"
+        }
+      ],
       "Individual": "Monkey",
       "Compounds": [
         {
@@ -287,7 +299,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "MEDI524YTE\nSim_MEDI524YTE\n2022-11-16 14:22"
+          "OriginText": "MEDI524YTE\nSim_MEDI524YTE\n2023-03-07 12:07"
         },
         {
           "Axes": [
@@ -365,7 +377,7 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "MEDI524YTE\nSim_MEDI524YTE\n2022-11-16 14:22"
+          "OriginText": "MEDI524YTE\nSim_MEDI524YTE\n2023-03-07 12:07"
         }
       ]
     }
@@ -385,6 +397,18 @@
         {
           "Name": "Molecule",
           "Value": "MEDI524YTE"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Species",
+          "Value": "Monkey"
         }
       ],
       "Columns": [
@@ -502,6 +526,18 @@
         {
           "Name": "Molecule",
           "Value": "MEDI524YTE"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Species",
+          "Value": "Monkey"
         }
       ],
       "Columns": [
